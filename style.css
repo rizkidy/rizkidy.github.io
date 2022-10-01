@@ -1,0 +1,104 @@
+/* rizkidy.html */
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom right, red, yellow, green);
+    background-repeat: no-repeat;
+}
+
+.main{
+    width: 800px;
+    height: 850px;
+    background-image: url(wave.svg);
+    background-color: white;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    padding: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}
+
+ol{
+    text-align: left;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a img{
+    padding: 3px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+/* portofolio.html */
+
+.portofolio{
+    width: 500px;
+    height: 531px;
+    background-image: url(wave.svg);
+    background-color: white;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    padding: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+table{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(black, #b900e3, #f720a1, black);
+}
+
+.sartik{
+    width: 800px;
+    height: 531px;
+    background-image: url(wave.svg);
+    background-color: white;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    padding: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#email{
+    padding-right: 342px;
+}
+
+#inputEmail{
+    padding-right: 215px;
+}
+
+#kritik{
+    padding-right: 272px;
+}
+
+input{
+    background-color: black;
+    color: white;
+}
