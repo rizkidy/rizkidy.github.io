@@ -72,6 +72,12 @@ table{
     background-image: linear-gradient(black, #b900e3, #f720a1, black);
 }
 
+#sosmedH3{
+    text-align: center;
+}
+
+/* Kritik dan Saran */
+
 .sartik{
     width: 800px;
     height: 531px;
@@ -101,4 +107,6 @@ table{
 input{
     background-color: black;
     color: white;
+    border-radius: 5px;
+    padding: 3px;
 }
