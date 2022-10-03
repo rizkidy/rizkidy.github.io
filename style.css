@@ -1,13 +1,42 @@
 /* rizkidy.html */
-body{
+body {
     text-align: center;
     background-image: linear-gradient(to bottom right, red, yellow, green);
     background-repeat: no-repeat;
 }
 
-.main{
+.navbar{
+ margin-left: 212px;
+ margin-right: 212px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.main {
     width: 800px;
-    height: 850px;
+    height: 770px;
     background-image: url(wave.svg);
     background-color: white;
     background-size: cover;
@@ -19,30 +48,23 @@ body{
     border-color: black;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-h3{
+h3 {
     text-align: left;
 }
 
-ul{
+ul {
     text-align: left;
 }
 
-ol{
+ol {
     text-align: left;
 }
 
-button{
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-a img{
+a img {
     padding: 3px;
     margin: 10px;
     border-style: solid;
@@ -53,8 +75,8 @@ a img{
 /* portofolio.html */
 
 .portofolio{
-    width: 500px;
-    height: 531px;
+    width: 800px;
+    height: 540px;
     background-image: url(wave.svg);
     background-color: white;
     background-size: cover;
@@ -66,10 +88,17 @@ a img{
     border-color: black;
 }
 
+
 table{
     text-align: center;
     color: white;
     background-image: linear-gradient(black, #b900e3, #f720a1, black);
+}
+
+td{
+    text-align: left;
+    font-size: 13px;
+    padding: 12px;
 }
 
 #sosmedH3{
@@ -80,7 +109,7 @@ table{
 
 .sartik{
     width: 800px;
-    height: 531px;
+    height: 540px;
     background-image: url(wave.svg);
     background-color: white;
     background-size: cover;
