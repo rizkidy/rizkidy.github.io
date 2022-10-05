@@ -6,6 +6,7 @@ body {
 }
 
 .navbar{
+ margin-top: -8px;
  margin-left: 212px;
  margin-right: 212px;
 }
