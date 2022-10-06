@@ -1,14 +1,17 @@
 /* rizkidy.html */
 body {
+    margin: 0;
     text-align: center;
-    background-image: linear-gradient(to bottom right, red, yellow, green);
+    /* background-color: black; */
+    background-image: url('background.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
 .navbar{
- margin-top: -8px;
- margin-left: 212px;
- margin-right: 212px;
+ margin-left: 220px;
+ margin-right: 220px;
 }
 
 .navbar ul {
@@ -27,13 +30,18 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 35px;
     text-decoration: none;
 }
 
-.navbar li a:hover {
+.navbar li a:hover:not(.active) {
     background-color: #8c8c8c;
 }
+
+.active {
+    background-color: #ff3d3d;
+}
+
 
 .main {
     width: 800px;
@@ -65,13 +73,19 @@ ol {
     text-align: left;
 }
 
+@media screen and (max-width: 576px){
+    a img {
+        float: left;
+    }    
+}
+
 a img {
     padding: 3px;
     margin: 10px;
     border-style: solid;
     border-width: 2px;
     border-color: black;
-}
+} 
 
 /* portofolio.html */
 
@@ -120,6 +134,12 @@ td{
     border-width: 5px;
     border-style: solid;
     border-color: black;
+}
+
+@media(max-width: 576px){
+    .sartik > form {
+        width: 100%;
+    }
 }
 
 #email{
