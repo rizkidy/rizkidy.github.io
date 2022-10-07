@@ -8,10 +8,10 @@ body {
     background-size: cover;
 }
 
+/* Navbar */
 
 .navbar{
- margin-left: 220px;
- margin-right: 220px;
+ margin: auto;
 }
 
 .navbar ul {
@@ -42,6 +42,16 @@ body {
     background-color: #ff3d3d;
 }
 
+/* Footer */
+
+.footer{
+    margin-top: 15px;
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
 
 .main {
     width: 800px;
