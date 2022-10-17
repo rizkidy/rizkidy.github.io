@@ -5,52 +5,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="r.jpg">
 </head>
 
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href="index.html">Biodata</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-            <li><a href="saran.html">Saran</a></li>
-            <li style="float: right;"><a href="index.html" class="active"><strong>Rizki Dwi Yulianto</strong></a></li>
-        </ul>
+    <!-- Navbar -->
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 text-center">
+            <h5 class="text-white h4">Welcome to My Profile</h5>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Biodata</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Kontak</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <br>
-    <div class="main">
-        <h1>Rizki Dwi Yulianto</h1>
-        <img src="kucing.jpg" alt="kucing" width="180" height="180" style="border-radius: 100px;">
-        <h3>Tentang Saya</h3>
-        <p class="tentang-saya" align="justify">Saya Rizki Dwi Yulianto, mahasiswa semester 4 program studi Teknologi
-            Rekayasa Perangkat
-            Lunak Politeknik Negeri Banyuwangi angkatan tahun 2020. Berpengalaman dalam membuat
-            sebuah desain aplikasi android yang memiliki konsep pemesanan restoran pada mata kuliah
-            Pemrograman Berbasis Android. Saat ini saya mengikuti program MSIB yang bermitra dengan SEAL dalam jangka
-            waktu bulan Agustus - Desember. Saya mengikuti MSIB ini dengan tujuan untuk memperoleh ilmu tambahan pada
-            bidang IT dan juga memperoleh pengalaman sehingga akan bermanfaat bagi saya pada dunia kerja nantinya.</p>
-        <h3>Keahlian Saya</h3>
-        <ol>
-            <li>UI/UX Designer</li>
-            <li>Junior Web Development</li>
-            <li>Junior Android Development</li>
-        </ol>
-        <h3>Pendidikan Saya</h3>
-        <ul>
-            <li>SDN 2 Tukangkayu</li>
-            <li>MTs Negeri 1 Banyuwangi</li>
-            <li>SMA Negeri 1 Banyuwangi</li>
-            <li>Politeknik Negeri Banyuwangi</li>
-        </ul>
-        <h3>Kontak Saya</h3>
-        <a href="https://www.instagram.com/rizkidy_/"><img src="instagram.jpg" alt="" width="30px" height="30px"></a>
-        <a href="https://twitter.com/rizkidy_"><img src="twitter.jpg" alt="" width="30px" height="30px"></a>
-        <a href="https://web.facebook.com/joey.andeblud/"><img src="fb.jpg" alt="" width="30px" height="30px"></a>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Biodata -->
+    <div class="container-fluid text-center biodata">
+        <img src="./assets/kucing.jpg" class="img-profile rounded-circle mt-5">
+        <h1 class="title pt-3">Rizki Dwi Yulianto</h1>
+        <p class="subtitle">Politeknik Negeri Banyuwangi</p>
     </div>
-    <div class="footer">
-        <p>Rizki Dwi Yulianto © 2022</p>
+    <!-- End Biodata -->
+
+    <br><br><br><br><br><br><br><br>
+    <hr class="p-3">
+    <!-- Tentang Saya -->
+    <div class="container">
+        <h3 class="text-center" style="font-family:'Raleway', sans-serif">About Me</h3>
+
+        <div class="d-flex align-items-center mt-5">
+            <div class="flex-shrink-0">
+                <img src="./assets/r.jpg" class="img-about rounded-circle">
+            </div>
+            <div class="flex-grow-1 ms-5 about-text">
+                Saya Rizki Dwi Yulianto, mahasiswa semester 4 program studi Teknologi Rekayasa Perangkat Lunak
+                Politeknik Negeri Banyuwangi angkatan tahun 2020. Berpengalaman dalam membuat sebuah desain aplikasi
+                android yang memiliki konsep pemesanan restoran pada mata kuliah Pemrograman Berbasis Android. Saat ini
+                saya mengikuti program MSIB yang bermitra dengan SEAL dalam jangka waktu bulan Agustus - Desember. Saya
+                mengikuti MSIB ini dengan tujuan untuk memperoleh ilmu tambahan pada bidang IT dan juga memperoleh
+                pengalaman sehingga akan bermanfaat bagi saya pada dunia kerja nantinya.
+            </div>
+        </div>
     </div>
+    <!-- End Tentang Saya -->
+
+    <br><br><br><br><br><br><br>
+    <hr class="p-3">
+
+    <!-- Portofoflio -->
+    <div class="container text-center">
+        <h3 class="text-center" style="font-family:'Raleway', sans-serif">My Portofolio</h3>
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>
+                <h2 class="fw-normal">Heading</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the
+                    first column.</p>
+                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>
+
+                <h2 class="fw-normal">Heading</h2>
+                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
+                    column.</p>
+                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>
+
+                <h2 class="fw-normal">Heading</h2>
+                <p>And lastly this, the third column of representative placeholder content maqkojmwosiqwhdnswqdjsqs.</p>
+                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Portofolio -->
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
